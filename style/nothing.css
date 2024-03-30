@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+body {
+    display: flex;
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    align-items: 5 4 10px;
+    align-content: center;
+    width: auto;
+    padding: 10px;          /*jarak antar baris*/
+    margin: auto;
+    height: auto;           /*jarak ketinggian halaman*/
+    margin: auto;           /*jarak pinggiran*/
+    max-width: 600px;          /*ukuran pinggir kartu*/
+    background-color:#0000001a;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+}
+
+.card image{
+    align-items: center;
+    margin: 20px;
+    width: 20rem;
+    right: 20px;
+    
+}
+
+.button {
+    margin-top: 20px; /* Menambahkan margin atas pada tombol */
+    align-items: center;
+    align-content: center;
+    box-sizing: 30px;
+    color: black;
+}
